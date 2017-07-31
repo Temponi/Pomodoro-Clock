@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pomodoro Clock</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Teko' rel='stylesheet'>
+    <link rel="icon" href="img/tomato.png">
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1 id="title">Pomodoro</h1>
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col-sm-offset-3 col-md-offset-3 col-lg-offset-3">
+                <p>Work</p>
+                <span id="plusWork">+</span>
+                <span id="work">1</span>
+                <span id="minusWork">-</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <p>Break</p>
+                <span id="plusBreak">+</span>
+                <span id="break">1</span>
+                <span id="minusBreak">-</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h1 id="time">1:00</h1>
+        <h1 id="state">Work Time</h1>
+        <div class="container" id="progressBar">
+            <div class="progress">
+                <div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" id="progress">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container text-center">
+            <h1 id="footer">Copyright &copy; 2017 Temponi</h1>
+        </div>
+    </footer>
+
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

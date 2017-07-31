@@ -1,0 +1,91 @@
+body {
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+#title {
+    font-family: 'Pacifico', sans-serif;
+    color: #F10;
+    font-size: 96px;
+    text-shadow: 4px 4px 2px black;
+    margin-bottom: 40px;
+}
+
+#work,
+#break,
+#plusWork,
+#plusBreak,
+#minusWork,
+#minusBreak,
+#state {
+    font-family: 'Teko', sans-serif;
+    font-size: 60px;
+    text-shadow: 4px 4px 2px black;
+    color: #F53;
+}
+
+p {
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+    text-shadow: 4px 4px 2px black;
+    color: #F22;
+    margin-bottom: 0;
+}
+
+#progressBar {
+    width: 400px;
+}
+
+#time {
+    font-family: 'Teko', sans-serif;
+    font-size: 90px;
+    text-shadow: 4px 4px 2px black;
+    color: #F53;
+    cursor: pointer;
+}
+
+.progress {
+    background: rgba(255, 255, 255, 0);
+    border: 2px solid rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    height: 19px;
+}
+
+.progress-bar-custom {
+    background: #F53;
+}
+
+#state {
+    margin-top: 0;
+    font-size: 30px !important;
+    text-shadow: 2px 2px 2px black;
+}
+
+footer {
+    margin-top: 6.7%;
+    width: 100%;
+    background-color: #222;
+}
+
+#footer {
+    font-size: 22px;
+    color: white;
+    font-family: 'Teko', sans-serif;
+}
+
+span {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
